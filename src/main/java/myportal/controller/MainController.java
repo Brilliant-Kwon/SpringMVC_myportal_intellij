@@ -30,7 +30,7 @@ public class MainController {
     }
 
     //Exception Handler
-    @ResponseBody
+   /* @ResponseBody
     @ExceptionHandler(RuntimeException.class)
     public String handleControllerExcept(RuntimeException e) {
         return "Exception: " + e.getMessage();
@@ -45,5 +45,5 @@ public class MainController {
         mav.addObject("message", e.getMessage());
         mav.setViewName("exception/exception");
         return mav;
-    }
+    }*/
 }

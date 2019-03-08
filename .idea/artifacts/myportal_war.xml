@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="myportal:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>myportal</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="myportal.war">
+      <element id="artifact" artifact-name="myportal:war exploded" />
+    </root>
+  </artifact>
+</component>

@@ -4,16 +4,16 @@
     <select id="selectAll"
             resultType="myportal.vo.GuestbookVo">
               <![CDATA[
-   select no,
-      name,
-      password,
-      content,
-      reg_date as regDate
-   from
-      guestbook
-   ]]>
 
+           select no,
+              name,
+              password,
+              content,
+              reg_date as regDate
+           from
+              guestbook
 
+        ]]>
     </select>
 
 </mapper>
